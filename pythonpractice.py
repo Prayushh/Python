@@ -23,3 +23,12 @@ print(course.replace('p','q'))
 import math
 math.ceil(2.7)
 math.floor(2.9)
+
+good_credit=False
+price=1000000
+if good_credit:
+    down_payment=price-(10/100)*price
+else:
+    down_payment=price-(20/100)*price
+
+print(down_payment)
