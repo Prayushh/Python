@@ -32,3 +32,6 @@ else:
     down_payment=price-(20/100)*price
 
 print(down_payment)
+
+for item in range(10):
+    print(item)
